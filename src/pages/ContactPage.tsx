@@ -49,7 +49,7 @@ const ContactPage: React.FC = () => {
                       <h3 className="font-bold mb-1">E-mail</h3>
                       <p className="text-gray-600">
                         <a href="mailto:contato@techstore.com.br" className="hover:text-black transition-colors">
-                          contato@techstore.com.br
+                          caixa@novaopcaoinformatica.com.br
                         </a>
                       </p>
                     </div>
@@ -62,9 +62,9 @@ const ContactPage: React.FC = () => {
                     <div className="ml-4">
                       <h3 className="font-bold mb-1">Endereço</h3>
                       <p className="text-gray-600">
-                        Av. Principal, 1234, Centro<br />
-                        Sua Cidade - MT<br />
-                        CEP: 78000-000
+                        Rua Tenente Portela, 96, Centro<br />
+                        Canarana - MT<br />
+                        CEP: 78640-000
                       </p>
                     </div>
                   </div>
@@ -76,8 +76,8 @@ const ContactPage: React.FC = () => {
                     <div className="ml-4">
                       <h3 className="font-bold mb-1">Horário de Funcionamento</h3>
                       <p className="text-gray-600">
-                        Segunda a Sexta: 8h às 18h<br />
-                        Sábado: 8h às 12h<br />
+                        Segunda a Sexta: 7:30h às 18h<br />
+                        Sábado: 7:30h às 11:30h<br />
                         Domingo: Fechado
                       </p>
                     </div>
@@ -88,7 +88,7 @@ const ContactPage: React.FC = () => {
                   <h3 className="font-bold mb-3">Redes Sociais</h3>
                   <div className="flex space-x-4">
                     <a 
-                      href="https://instagram.com" 
+                      href="https://instagram.com/novaopcaotecnologia" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="p-2 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
@@ -96,7 +96,7 @@ const ContactPage: React.FC = () => {
                       <Instagram size={20} className="text-black" />
                     </a>
                     <a 
-                      href="https://facebook.com" 
+                      href="https://facebook.com/consertasmartcanarana" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="p-2 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
@@ -120,25 +120,24 @@ const ContactPage: React.FC = () => {
           <div className="p-6">
             <h2 className="text-2xl font-bold mb-4">Nossa Localização</h2>
             <p className="text-gray-600 mb-4">
-              Estamos localizados no centro da cidade, com fácil acesso e estacionamento.
+              Estamos localizados no centro da cidade, com fácil acesso.
             </p>
           </div>
           
           <div className="h-96 bg-gray-200">
             {/* Here you would embed a Google Maps iframe, but for this example, we'll use a placeholder */}
-            <div className="w-full h-full flex items-center justify-center bg-gray-200">
-              <p className="text-gray-500">Mapa será carregado aqui</p>
-              {/* Example of how a map would be embedded:
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.5498337555!2d-34.90101622457262!3d-7.9354594789426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDI0JzI0LjgiTiA3NcKwMTInMTAuOCJX!5e0!3m2!1sen!2sbr!4v1629391714631!5m2!1sen!2sbr" 
-                width="100%" 
-                height="100%" 
-                style="border:0;" 
-                allowFullScreen="" 
+            <div className="w-full h-[450px] flex items-center justify-center bg-gray-200">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3878.638942552255!2d-52.27411968939361!3d-13.557726786759245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x936d167e859aaaab%3A0xb757a9105f956109!2sConserta%20Smart%20Canarana!5e0!3m2!1spt-BR!2sbr!4v1746730759458!5m2!1spt-BR!2sbr"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
                 loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
-              */}
             </div>
+
           </div>
         </div>
       </div>
