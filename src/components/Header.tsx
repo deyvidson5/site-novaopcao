@@ -45,7 +45,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2">
           <img
-      src="src/images/logo.jpeg"
+      src="/images/logo.jpeg"
       alt="Logo"
       className="w-8 h-8" // ajuste o tamanho conforme necessário
     />
